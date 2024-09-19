@@ -1,0 +1,205 @@
+.img-card, .img-card-right {
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    overflow: hidden;
+    height: 350px;
+    width: 70%;
+    padding:0px;
+  }
+.card {
+    border: 1px solid #ddd;
+    background-color: rgb(255, 242, 234);
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 350px;
+    padding:0px;
+  }
+
+.card2 {
+    border: 1px solid #ddd;
+    background-color: rgb(234, 247, 237);
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 350px;
+    padding:0px;
+  }
+
+
+  .card3{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-section {
+    padding: 20px;
+  }
+  .img-card {
+    padding-right: 20px; /* Adds space between image and text */
+  }
+
+  .img-card-right{
+
+    padding-left: 20px; 
+  }
+
+  .img-card img {
+    object-fit: cover;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .img-card-right img {
+    object-fit: cover;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  
+    .text-section {
+      padding-top: 15px;
+    }
+
+    .img-card, .img-card-right{
+    width: 100%;
+    padding: 0px;
+    }
+
+    .home_layout{
+      flex-direction: column;
+
+    }
+
+    
+
+  }
+
+  .b-color{
+    border-left: 5px solid;
+    border-color: rgb(240, 126, 37);
+    border-radius: 5px;
+    
+  }
+
+  .b-color2{
+    border-left: 5px solid;
+    border-color: rgb(34, 174, 65);
+    border-radius: 5px;
+    
+  }
+  
+  .rounded-circle {
+    /* background-color: rgb(240, 227, 37);
+    color: black;
+    width: 10px;
+    height: 10px;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 5px;  */
+    /* Ensures the button is perfectly round */
+
+
+    background-color: rgb(240, 227, 37); /* Custom background color */
+  color: black; /* Text color */
+  padding: 5px 30px; /* Adjust height and width */
+  font-size: 16px; /* Font size */
+  border: none
+  }
+  
+
+  .custom-button {
+    padding: 5px 20px; /* Adjust padding to make the button smaller */
+    font-size: 14px; /* Adjust font size */
+    width: auto; /* Ensures button doesn't take full width */
+  }
+  
+
+  
+  .custom-pill-btn {
+    background-color:rgb(241, 37, 38); /* Custom background color */
+    color: white; /* Text color */
+    display: inline-block !important;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-pill-btn:hover {
+    color: whitesmoke;
+  }
+  
+
+  .b-radious{
+
+    border-radius: 10px;
+
+  }
+
+
+  .bg1{
+    background-color:rgb(244, 247, 254);
+  }
+  .bg2{
+    background-color:rgb(244, 250, 246);
+  }
+
+  .text_color{
+
+    color: rgb(39, 96, 239);
+  }
+
+
+  .bg_white{
+
+    background-color: rgb(243, 242, 243);
+    opacity: 0.8;
+
+  }
+
+
+  .home{
+
+    background-image: url("../../../../public/assets/home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; /* Height set to 50% of the viewport height */
+    width: 100%;
+    position: relative;
+
+  }
+  
+  .home_layout{
+
+    top: 10%;
+    left: 2%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    
+  }
